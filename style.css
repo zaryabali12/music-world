@@ -1,0 +1,272 @@
+body{
+  background-color: #121212;
+}
+h1{
+  background: rgb(9,113,121);
+  background: linear-gradient(90deg, rgba(9,113,121,1) -34%, rgba(6,63,159,1) 5%, rgba(0,255,248,1) 100%);
+padding: 6%;  
+font-size: 400%;
+color: white;
+position: relative;
+margin: 0;
+}
+h2{
+  color: #ffffff;
+  font-size: 22px;
+  margin-bottom: 20px;
+  margin-top: 2%;
+}
+.list{
+  display: flex;
+  gap:  20px;
+  overflow: hidden;
+  margin-top: 2%;
+}
+.item{
+  min-width:140px;
+width: 160px;
+padding: 15px;
+background-color: #181818;
+border-radius: 6px;
+cursor: pointer;
+transition: all ease 0.4s;
+}
+.item:hover{
+  background-color: #252525;
+}
+img{
+ width: 100%;
+ border-radius: 6px;
+ margin-bottom: 10px;
+}
+.play{
+  position: relative;
+}
+.fa-solid{
+  position: absolute;
+  right: 10px;
+  top: -60px;
+  padding: 18px;
+  border-radius: 100%;
+  background-color: #1db954;
+  opacity: 0;
+  transition: all ease 0.4s;
+}
+.fa-solid:hover{
+  opacity: 1;
+  transform: translate(-10px);
+}
+h4{
+  color: #ffffff;
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.taylor{
+  padding: 20px;
+    background: rgb(239,239,238);
+  background: linear-gradient(90deg, rgba(239,239,238,1) 0%, rgba(120,120,121,1) 100%);
+  }
+.container{
+  background-color: #434343;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin-right: 15px;
+}
+.arrow{
+  display: flex;
+  align-items: center;
+}
+.content{
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+.cover img{
+  width: 250px;
+  height: 250px;
+  box-shadow: 6px -4px 13px 4px rgba(0,0,0,0.67);
+-webkit-box-shadow: 6px -4px 13px 4px rgba(0,0,0,0.67);
+-moz-box-shadow: 6px -4px 13px 4px rgba(0,0,0,0.67);
+}
+.info{
+  color: white;
+  padding-left: 20px;
+  
+}
+@import url('https://fonts.googleapis.com/css?family=AveinirLTStd-Black&display=swap');
+.public{
+  font-size: 400%;
+  font-weight: 600;
+  font-family: 'AveinirLTStd-Black';
+  margin-top: 10px;
+}
+.description{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.671);
+  margin-top: 30px;
+}
+.fas{
+  position: relative;
+}
+span{
+  font-weight: 1000;
+  color: #434343;
+}
+.logo{
+  margin-top: 5px;
+}
+.buttons-left, .buttons-right{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons{
+  display: flex;
+  justify-content: space-between;
+}
+.songs{
+  height:100vh;
+  background: rgb(18,18,18);
+background: linear-gradient(0deg, rgba(18,18,18,1) 79%, rgba(95,95,96,1) 100%);
+padding: 20px;
+}
+.pause{
+  background-color: #1db954;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.like, .download,.dot{
+  margin-left: 20px;
+}
+.order{
+  color: #a9a9a9;
+  position: relative;
+  top: 2px;
+  margin-left: 20px;
+}
+.songss{
+  margin-top: 20px;
+}
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+tr td, th{
+  padding: 5px;
+  color: #CACACA;
+}
+tr th{
+  font-weight: 200;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+tr:first-of-type{
+  border-bottom: 1px solid #CACACA;
+}
+th{
+  text-align: left;
+}
+.songimg img{
+  width: 40px;
+  height: 40px;
+}
+.songname, .footer-player-left-song-name{
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+}
+.songname-artist{
+  padding-left: 15px;
+  letter-spacing: 8.5px;
+}
+.songartist, .song-album, .songdate, tr td:first-of-type, .duration{
+  font-size: 14px;
+  margin-top: 2px;
+  color: #848485;
+}
+.songartist{
+  margin-top: 3px;
+  margin-left: 7px;
+}
+.songlist{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+tr:hover{
+  background-color: rgba(128, 128, 128, 0.322);
+}
+.songlyrics{
+  color: rgba(255, 255, 255, 0.753);
+  font-size: 100%;
+  font-family: 'arial';
+}
+a{
+  color: white;
+  margin-left: 10px;
+  font-size: 110%;
+  text-decoration: none;
+}
+.Ariana{
+  background: rgb(229,234,245);
+background: linear-gradient(90deg, rgba(229,234,245,1) 0%, rgba(160,210,235,1) 100%);
+padding: 20px;
+}
+.justin{
+  background: rgb(80,200,120);
+background: radial-gradient(circle, rgba(80,200,120,1) 48%, rgba(67,166,128,1) 84%);
+padding: 20px;
+}
+.selena{
+  background: rgb(80,200,189);
+background: linear-gradient(0deg, rgba(80,200,189,1) 58%, rgba(68,169,78,1) 93%, rgba(67,166,68,1) 96%);
+padding: 20px;
+}
+.ed{
+  background: rgb(200,80,171);
+background: linear-gradient(0deg, rgba(200,80,171,1) 58%, rgba(67,77,166,1) 96%);
+padding: 20px;
+}
+.billie{
+  background: rgb(200,114,80);
+background: linear-gradient(0deg, rgba(200,114,80,1) 73%, rgba(199,53,53,1) 88%);
+padding: 20px;
+}
+.eminem{
+  background: rgb(80,200,189);
+background: linear-gradient(0deg, rgba(80,200,189,1) 61%, rgba(85,53,199,1) 83%);
+padding: 20px;
+}
+.nazia{
+  background: rgb(200,80,153);
+background: linear-gradient(0deg, rgba(200,80,153,1) 61%, rgba(199,129,53,1) 83%);
+padding: 20px;
+}
+.atif{
+  background: rgb(151,200,80);
+background: linear-gradient(0deg, rgba(151,200,80,1) 61%, rgba(53,199,58,1) 83%);
+padding: 20px;
+}
+.Sajjad{
+  background: rgb(215,16,20);
+background: linear-gradient(0deg, rgba(215,16,20,1) 61%, rgba(65,4,4,1) 83%);
+padding: 20px;
+}
+.Ali{
+  background: rgb(157,6,159);
+background: linear-gradient(90deg, rgba(157,6,159,1) 5%, rgba(136,0,255,1) 100%);
+padding: 20px;
+}
